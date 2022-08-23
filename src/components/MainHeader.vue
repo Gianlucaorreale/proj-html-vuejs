@@ -25,18 +25,28 @@ export default {
 <style lang="scss">
 #nav{
     display: flex;
+    background-color: white;
     justify-content: space-between;
     align-items: center;
-    height: 100px;
-    position: sticky;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
     ul {
     display:flex;
     list-style-type: none;
     img{
         height: 30px;
     }
+    
     li{
      margin-right: 10px;
+     a:hover{
+        color: dodgerblue;
+        background-color: lightgray;
+     }
      a{
         text-decoration: none;
         color: gray;
