@@ -1,13 +1,13 @@
 <template>
-  <div></div>
+  <MainHeader/>
 </template>
 
 <script>
 
-
+import MainHeader from './components/MainHeader.vue'
 export default {
   name: 'App',
-  components: {
+  components: {MainHeader
     
   }
 }
