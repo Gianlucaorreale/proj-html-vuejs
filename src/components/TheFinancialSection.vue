@@ -30,6 +30,7 @@
               button{
                 background-color: lightgreen;
                 border-color: lightgreen;
+                border-radius: 10px;
                     }
               a{
                 text-decoration: none;

@@ -4,6 +4,7 @@
     <TheJumbotron/>
     <TheClientSection/>
     <TheFinancialSection/>
+    <TheServicesSection/>
   </div>
 </template>
 
@@ -13,9 +14,10 @@ import MainHeader from './components/MainHeader.vue'
 import TheJumbotron from './components/TheJumbotron.vue';
 import TheClientSection from './components/TheClientSection.vue';
 import TheFinancialSection from './components/TheFinancialSection.vue';
+import TheServicesSection from './components/TheServicesSection.vue';
 export default {
   name: 'App',
-  components: { MainHeader, TheJumbotron, TheClientSection, TheFinancialSection }
+  components: { MainHeader, TheJumbotron, TheClientSection, TheFinancialSection, TheServicesSection }
 }
 </script>
 

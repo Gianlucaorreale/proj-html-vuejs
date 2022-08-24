@@ -47,6 +47,10 @@ export default {
         color: dodgerblue;
         background-color: lightgray;
      }
+     button{
+      border-radius: 10px;
+      border-color: lightgray;
+     }
      a{
         text-decoration: none;
         color: gray;
