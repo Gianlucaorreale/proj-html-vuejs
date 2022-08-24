@@ -8,17 +8,16 @@
     <div class="recent-posts">
       <ul>
         <li><a href="#"><strong>RECENT POSTS</strong></a></li>
-        <li><a href="#">When is it the right time to sell your company?</a></li>
-        <li><a href="#">Personal debt or company debt we explore your option</a></li>
-        <li><a href="#">An interview with a so-called business angel</a></li>
+        <li v-for="post in posts" :key="post.text">
+        <a :href="post.url">{{post.text}}</a></li>
+        
       </ul>
     </div>
     <div class="services">
       <ul>
         <li><a href="#"><strong>SERVICES</strong></a></li>
-        <li><a href="#">SMALL BUSINESS LOAN SERVICES</a></li>
-        <li><a href="#">CREDIT RATING ADVICE SERVICES</a></li>
-        <li><a href="#">CROWD FOUNDING SERVICES</a></li>
+        <li v-for="service in services" :key="service.text">
+        <a :href="service.url">{{service.text}}</a></li>
       </ul>
     </div>
     <div class="latest">
@@ -31,7 +30,21 @@
 
 <script>
   export default{
-    name:'TheSecondfooterSection'
+    name:'TheSecondfooterSection',
+    data(){
+      return{
+        posts:[
+          {url:'#', text:'When is it the right time to sell your company?'},
+          {url:'#', text:'Personal debt or company debt we explore your option'},
+          {url:'#',text:'An interview with a so-called business angel'}
+        ],
+        services:[
+          {url:'#',text:'SMALL BUSINESS LOAN SERVICES'},
+          {url:'#',text:'CREDIT RATING ADVICE SERVICES'},
+          {url:'#',text:'CROWD FOUNDING SERVICES'},
+        ]
+      }
+    }
   }
 </script>
 
