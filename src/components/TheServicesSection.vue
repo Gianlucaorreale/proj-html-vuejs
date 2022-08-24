@@ -46,11 +46,11 @@
     #cards-container{
         display: flex;
         justify-content: center;
-        margin: 100px 0px;
+       margin-top: 50px;
         .cards{
-            height: 100px;
-            margin: 0px 20px;
-            width: calc(100% / 3 - 20px);
+           
+            margin: 0px 40px;
+            width: calc(100% / 3 );
             background-color: white;
             display: flex;
             flex-direction: column;

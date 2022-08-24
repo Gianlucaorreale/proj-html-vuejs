@@ -5,6 +5,7 @@
     <TheClientSection/>
     <TheFinancialSection/>
     <TheServicesSection/>
+    <TheNumbersSection/>
   </div>
 </template>
 
@@ -15,9 +16,10 @@ import TheJumbotron from './components/TheJumbotron.vue';
 import TheClientSection from './components/TheClientSection.vue';
 import TheFinancialSection from './components/TheFinancialSection.vue';
 import TheServicesSection from './components/TheServicesSection.vue';
+import TheNumbersSection from './components/TheNumbersSection.vue';
 export default {
   name: 'App',
-  components: { MainHeader, TheJumbotron, TheClientSection, TheFinancialSection, TheServicesSection }
+  components: { MainHeader, TheJumbotron, TheClientSection, TheFinancialSection, TheServicesSection, TheNumbersSection }
 }
 </script>
 
