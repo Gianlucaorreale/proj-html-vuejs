@@ -48,8 +48,9 @@ export default {
         background-color: lightgray;
      }
      button{
-      border-radius: 10px;
-      border-color: lightgray;
+      background-color: #5ADDCD;
+      border-color: #5ADDCD;
+      border-radius: 20px;
      }
      a{
         text-decoration: none;

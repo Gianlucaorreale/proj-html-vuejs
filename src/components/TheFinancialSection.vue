@@ -28,9 +28,9 @@
             
             padding: 50px;
               button{
-                background-color: lightgreen;
-                border-color: lightgreen;
-                border-radius: 10px;
+                background-color: #5ADDCD;
+                border-color: #5ADDCD;
+                border-radius: 20px;
                     }
               a{
                 text-decoration: none;
