@@ -6,12 +6,16 @@
         <button><a href="#">Learn more</a></button>
      </div>
      <div class="c-sec">
-        <p class="numbers">86%</p>
-        <p class="numbers">92%</p>
+        <h1 class="numbers">86%</h1>
+        <p>Successfull application</p>
+        <h1 class="numbers">92%</h1>
+        <p>Applied solutions</p>
     </div>
      <div class="right-sec">
-        <p class="numbers">94%</p>
-        <p class="numbers">100%</p>
+        <h1 class="numbers">94%</h1>
+        <p>Return on Investments</p>
+        <h1 class="numbers">100%</h1>
+        <p>Completely secure</p>
     </div>
    </section>
 </template>
@@ -24,7 +28,7 @@
 
 <style lang="scss">
   .left-sec{
-     height: 300px ;
+     
      width: calc(100% / 3);
      background-image: url(../assets/img/counters-bg-image.jpg);
      background-size: cover;
@@ -46,14 +50,16 @@
         }
      }
   }
-  .c-sec, .right-sec{
+  .c-sec,.right-sec{
     width: calc(100 / 3);
-    height: 300px;
+    p{
+      text-align: center;
+    }
+   
    
     .numbers{
         font-size: 3rem;
         margin: 100px 100px;
-        
         color: blue;
     }
   }
