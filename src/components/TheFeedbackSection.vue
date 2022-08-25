@@ -1,15 +1,27 @@
 <template>
   <section>
-    <div class="feed-heade{r">
+    <div class="feed-header">
         <h1>Client Feedback</h1>
     </div>
     <div class="feed-main">
         <div id="cards-container">
-            <div class="card" v-for="card in cards" :key="card.src">
-                <img :src="`../assets${card.src}`" >
-                <p>{{card.text}}
-                </p>
+            <div class="card">
+                <img src="../assets/img/client-logo-4.png" >
+                <p>'Avada finance offers a fantastic service! It is so easy to use and the customer support is the best around.This payment option is my numer one choice. I always recommend it'.</p>
             </div>
+             <div class="card">
+                <img src="../assets/img/client-logo-1-1.png" >
+                <p>'Avada finance offers a fantastic service! It is so easy to use and the customer support is the best around.This payment option is my numer one choice. I always recommend it'.</p>
+            </div>
+             <div class="card">
+                <img src="../assets/img/client-logo-2.png" >
+                <p>'Avada finance offers a fantastic service! It is so easy to use and the customer support is the best around.This payment option is my numer one choice. I always recommend it'.</p>
+            </div>
+             <div class="card">
+                <img src="../assets/img/client-logo-3.png" >
+                <p>'Avada finance offers a fantastic service! It is so easy to use and the customer support is the best around.This payment option is my numer one choice. I always recommend it'.</p>
+            </div>
+            
         </div>
         <div id="cards-container">
             <div class="card">
@@ -36,24 +48,6 @@
 <script>
 export default {
     name:'TheFeedbackSection',
-    data(){
-        return{
-            cards:[
-                {src:'/img/client-logo-4.png',
-                 text:" 'Avada finance offers a fantastic service! It is so easy to use and the customer support is the best around.This payment option is my numer one choice. I always recommend it."
-                },
-                {src:'/img/client-logo-1-1.png',
-                text:" 'Avada finance offers a fantastic service! It is so easy to use and the customer support is the best around.This payment option is my numer one choice. I always recommend it."
-                },
-                {src:'/img/client-logo-2.png',
-                text:" 'Avada finance offers a fantastic service! It is so easy to use and the customer support is the best around.This payment option is my numer one choice. I always recommend it."
-                },
-                {src:'/img/client-logo-3.png',
-                text:" 'Avada finance offers a fantastic service! It is so easy to use and the customer support is the best around.This payment option is my numer one choice. I always recommend it."
-                }
-            ]
-        }
-    }
 }
 
 </script>

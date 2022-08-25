@@ -6,6 +6,7 @@
     
     <div id="cards-container" >
        <div class="cards">
+         <i class="fa-solid fa-globe"></i>
          <h3>Small Business Loan</h3>
          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate at voluptatum esse consequatur facere maiores accusantium</p>
          <button><a href="#">Learn More</a></button>
@@ -27,7 +28,8 @@
 
 <script>
    export default{
-    name:'TheServicesSection'
+    name:'TheServicesSection',
+   
    }
 </script>
 
