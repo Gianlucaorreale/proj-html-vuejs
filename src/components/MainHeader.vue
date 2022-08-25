@@ -5,11 +5,8 @@
         <li><img src="../assets/img/finance_logo_1x.png" alt="logo"></li>
     </ul>
     <ul>
-        <li><a href="#">HOME</a></li>
-        <li><a href="#">ABOUT</a></li>
-        <li><a href="#">SERVICES</a></li>
-        <li><a href="#">PACKAGES</a></li>
-        <li><a href="#">INSIGHT</a></li>
+        <li v-for="nav in navs" :key="nav.text">
+        <a :href="nav.url">{{nav.text}}</a></li>
         <li><button><a href="#">CONTACT</a></button></li>
     </ul>
   </section>
@@ -18,7 +15,17 @@
 <script>
 export default {
   name: 'MainHeader',
-  
+  data(){
+    return{
+      navs:[
+        {url:'#', text:'HOME'},
+        {url:'#', text:'ABOUT'},
+        {url:'#', text:'SERVICES'},
+        {url:'#', text:'PACKAGES'},
+        {url:'#', text:'INSIGHT'},
+      ]
+    }
+  }
 }
 </script>
 
